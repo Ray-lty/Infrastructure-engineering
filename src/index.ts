@@ -1,1 +1,2 @@
-export { hideStr } from './hideStr'
+export * from './hideStr'
+export * from './animate'
