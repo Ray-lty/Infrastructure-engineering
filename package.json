@@ -1,0 +1,41 @@
+{
+  "name": "infrastructure-engineering",
+  "version": "0.0.1",
+  "description": "基建",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup --bundleConfigAsCjs -c",
+    "prepublish": "pnpm version && pnpm build",
+    "pub": "pnpm prepublish && pnpm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray-lty/Infrastructure-engineering.git"
+  },
+  "author": "lty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ray-lty/Infrastructure-engineering/issues"
+  },
+  "homepage": "https://github.com/Ray-lty/Infrastructure-engineering#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.33.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "rollup": "^3.12.0",
+    "typescript": "^4.9.5"
+  },
+  "type": "module"
+}

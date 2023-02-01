@@ -1,0 +1,1 @@
+export const hideStr = (str: string) => str && str.replace('0', '*')

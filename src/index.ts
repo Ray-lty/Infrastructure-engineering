@@ -1,0 +1,1 @@
+export { hideStr } from './hideStr'
