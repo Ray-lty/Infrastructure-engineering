@@ -1,8 +1,12 @@
 {
   "name": "@fh/utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "工具箱",
+  "main": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "rollup -w -c",
     "build": "rollup -c",
