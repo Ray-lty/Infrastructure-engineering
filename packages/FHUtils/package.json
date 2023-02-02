@@ -1,0 +1,19 @@
+{
+  "name": "@fh/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup -c",
+    "pub": "pnpm build && pnpm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "FH-infrastructure-engineering": "^0.0.2",
+    "dayjs": "^1.11.7"
+  },
+  "type": "module"
+}
